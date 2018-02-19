@@ -1,0 +1,43 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node',
+1 verbose cli   '/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm',
+1 verbose cli   'run',
+1 verbose cli   'start-dev' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.2
+4 verbose stack Error: missing script: start-dev
+4 verbose stack     at run (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/run-script.js:151:19)
+4 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/lib/run-script.js:61:5
+4 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:356:5
+4 verbose stack     at checkBinReferences_ (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:320:45)
+4 verbose stack     at final (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:354:3)
+4 verbose stack     at then (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:124:5)
+4 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/read-package-json/read-json.js:243:12
+4 verbose stack     at /home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/graceful-fs/graceful-fs.js:78:16
+4 verbose stack     at tryToString (fs.js:456:3)
+4 verbose stack     at FSReqWrap.readFileAfterClose [as oncomplete] (fs.js:443:12)
+5 verbose cwd /home/ubuntu/workspace
+6 error Linux 4.9.80-c9
+7 verbose stack Error: EIO: i/o error, write
+7 verbose stack     at Error (native)
+7 verbose stack     at Object.fs.writeSync (fs.js:787:20)
+7 verbose stack     at SyncWriteStream._write (fs.js:2235:6)
+7 verbose stack     at doWrite (_stream_writable.js:331:12)
+7 verbose stack     at writeOrBuffer (_stream_writable.js:317:5)
+7 verbose stack     at SyncWriteStream.Writable.write (_stream_writable.js:243:11)
+7 verbose stack     at EventEmitter.log.write (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npmlog/log.js:265:10)
+7 verbose stack     at EventEmitter.<anonymous> (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npmlog/log.js:228:12)
+7 verbose stack     at Array.forEach (native)
+7 verbose stack     at EventEmitter.log.emitLog (/home/ubuntu/.nvm/versions/node/v6.11.2/lib/node_modules/npm/node_modules/npmlog/log.js:226:28)
+8 verbose cwd /home/ubuntu/workspace
+9 error Linux 4.9.80-c9
+10 error argv "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/node" "/home/ubuntu/.nvm/versions/node/v6.11.2/bin/npm" "run" "start-dev"
+11 error node v6.11.2
+12 error npm  v3.10.10
+13 error code EIO
+14 error errno -5
+15 error syscall write
+16 error EIO: i/o error, write
+17 error If you need help, you may report this error at:
+17 error     <https://github.com/npm/npm/issues>
+18 verbose exit [ -5, true ]
